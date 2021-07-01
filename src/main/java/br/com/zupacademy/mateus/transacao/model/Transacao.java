@@ -41,4 +41,36 @@ public class Transacao {
         this.cartaoEmail = cartaoEmail;
         this.efetivadaEm = efetivadaEm;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+
+    public String getEstabelecimentoNome() {
+        return estabelecimentoNome;
+    }
+
+    public String getEstabelecimentoCidade() {
+        return estabelecimentoCidade;
+    }
+
+    public String getEstabelecimentoEndereco() {
+        return estabelecimentoEndereco;
+    }
+
+    public String getCartaoId() {
+        return cartaoId;
+    }
+
+    public String getCartaoEmail() {
+        return cartaoEmail;
+    }
+
+    public LocalDateTime getEfetivadaEm() {
+        return efetivadaEm;
+    }
 }

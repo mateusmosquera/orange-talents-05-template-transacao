@@ -39,9 +39,9 @@ public class EventoDeTransacao {
     }
 
     public Transacao toModel() {
-        return new Transacao(this.id,this.valor,this.cartao.id,this.cartao.email,
-                        this.estabelecimento.nome,this.estabelecimento.cidade,
-                        this.estabelecimento.endereco,this.efetivadaEm);
+        return new Transacao(this.id,this.valor,this.estabelecimento.nome,this.estabelecimento.cidade,
+                        this.estabelecimento.endereco,this.cartao.id,
+                        this.cartao.email,this.efetivadaEm);
     }
 
     public static class Estabelecimento {
